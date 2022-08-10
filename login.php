@@ -1,31 +1,5 @@
 <?php 
 
-/*-function returnIpAddress()
-{
-    if(!empty($_SERVER['HTTP_CLIENT_IP']))
-	{
-        //ip from share internet
-        $ip = $_SERVER['HTTP_CLIENT_IP'];
-    }
-	else if(!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
-	{
-        //ip pass from proxy
-        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-    }
-	else
-	{
-        $ip = $_SERVER['REMOTE_ADDR'];
-    }
-    return $ip;
-}
-
-$ip = returnIpAddress();
-
-if($ip != "37.35.67.21")
-{
-	die();
-}*/
-
 $host = $_SERVER['SERVER_NAME'];
 
 if($host == "62.4.16.133")
