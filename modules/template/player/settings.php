@@ -11,8 +11,8 @@
 						$apiURLBase = 'https://discordapp.com/api/users/@me';
 						$revokeURL = 'https://discordapp.com/api/oauth2/token/revoke';						
 
-						define('OAUTH2_CLIENT_ID', '880245870120030248');
-						define('OAUTH2_CLIENT_SECRET', 'TTIDiIuKgWiXAUjtc2EmaJ_I179vSF0a');
+						define('OAUTH2_CLIENT_ID', '');
+						define('OAUTH2_CLIENT_SECRET', '');
 						
 						if(isset($_GET['forum']) && isset($_GET['user']))
 						{					
